@@ -115,6 +115,7 @@ void USART1_IRQHandler(void)
 	{
         g_DmaRxCount[0]++;
 		uart_dmarx_idle_isr(DEV_UART1);
+		USART_ReceiveData(USART1);
 		USART_ClearITPendingBit(USART1, USART_IT_IDLE);
 	}
 }
@@ -130,6 +131,7 @@ void USART2_IRQHandler(void)
 	{
         g_DmaRxCount[3]++;
 		uart_dmarx_idle_isr(DEV_UART2);
+		USART_ReceiveData(USART2);
 		USART_ClearITPendingBit(USART2, USART_IT_IDLE);
 	}
 }
