@@ -174,8 +174,6 @@
           <name>CCDefines</name>
           <state>USE_STDPERIPH_DRIVER</state>
           <state>STM32F030X8</state>
-          <state>_OPTIMIZATION_</state>
-          <state>__DEBUG_NONE__</state>
         </option>
         <option>
           <name>CCPreprocFile</name>

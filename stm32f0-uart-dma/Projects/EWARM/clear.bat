@@ -1,4 +1,5 @@
-del App\*.HEX  /q
+del App\Exe\*.bin  /q
 del App\Exe\*.out  /q
+del App\List\*.map  /q
 del App\Obj\*.*  /q
-del App\*.HEX /q
+rd settings
