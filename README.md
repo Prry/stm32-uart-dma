@@ -4,11 +4,11 @@
 
 ## 测试平台
 
-* STM32F030C8T6
-* UART1/UART2
-* DMA1 Channel2—Channel5
-* ST标准库
-* 主频48MHz（外部12MHz晶振）
+| 平台          | 晶振  | BSP库  | 串口         |
+| ------------- | ----- | ------ | ------------ |
+| STM32F030C8T6 | 12MHz | 标准库 | UART1、UART2 |
+| STM32F103ZET6 | 8MHz  | 标准库 | UART1、UART2 |
+| ...           |       |        |              |
 
 <br>
 
