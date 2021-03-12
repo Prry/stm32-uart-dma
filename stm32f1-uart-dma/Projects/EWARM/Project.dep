@@ -6,37 +6,37 @@
   <configuration>
     <name>App</name>
     <outputs>
-      <file>$PROJ_DIR$\App\Obj\fifo.o</file>
-      <file>$PROJ_DIR$\App\Obj\dev_uart.o</file>
-      <file>$PROJ_DIR$\App\Exe\Project.out</file>
-      <file>$PROJ_DIR$\App\Exe\Project_App.bin</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
       <file>$PROJ_DIR$\..\..\Source\App\dev_uart.h</file>
+      <file>$PROJ_DIR$\App\Exe\Project.out</file>
       <file>$PROJ_DIR$\App\Obj\Project.pbd</file>
-      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
-      <file>$PROJ_DIR$\App\Obj\main.o</file>
-      <file>$PROJ_DIR$\..\..\Source\Components\fifo.h</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-      <file>$PROJ_DIR$\App\Obj\bsp_uart.o</file>
-      <file>$PROJ_DIR$\App\Obj\dev_uart.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-      <file>$PROJ_DIR$\App\Obj\main.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-      <file>$PROJ_DIR$\App\Obj\bsp_uart.pbi</file>
-      <file>$PROJ_DIR$\..\..\Source\Bsp\bsp_uart.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-      <file>$PROJ_DIR$\App\Obj\fifo.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\App\Obj\dev_uart.o</file>
+      <file>$PROJ_DIR$\App\Obj\main.o</file>
       <file>$PROJ_DIR$\..\..\Source\App\main.c</file>
-      <file>$PROJ_DIR$\..\..\Source\Bsp\bsp_uart.c</file>
-      <file>$PROJ_DIR$\..\..\Source\Components\fifo.c</file>
       <file>$PROJ_DIR$\..\..\Source\App\dev_uart.c</file>
+      <file>$PROJ_DIR$\..\..\Source\Bsp\bsp_uart.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\App\Obj\fifo.o</file>
+      <file>$PROJ_DIR$\..\..\Source\Components\fifo.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\Source\Components\fifo.h</file>
+      <file>$PROJ_DIR$\App\Exe\Project_App.bin</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\App\Obj\bsp_uart.pbi</file>
+      <file>$PROJ_DIR$\App\Obj\dev_uart.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\App\Obj\bsp_uart.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\Source\Bsp\bsp_uart.h</file>
+      <file>$PROJ_DIR$\App\Obj\fifo.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\App\Obj\main.pbi</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
@@ -52,7 +52,7 @@
       <outputs>
         <tool>
           <name>OBJCOPY</name>
-          <file> 3</file>
+          <file> 15</file>
         </tool>
       </outputs>
     </file>
@@ -61,55 +61,17 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 19</file>
+          <file> 30</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 10</file>
+          <file> 6</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 15 20 14 12 9 13 23 8 18 7 4 22 26 5</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\Source\Bsp\bsp_uart.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 21</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 16</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 24 20 14 12 9 13 23 8 7 15 26 22</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\Source\Components\fifo.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 25</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 0</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 15 20 14 12 9 13 23 8 26 18 7 4 11 24</file>
+          <file> 29 28 24 4 16 17 22 13 27 10 0 25 18 1</file>
         </tool>
       </inputs>
     </file>
@@ -118,17 +80,55 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 17</file>
+          <file> 20</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 1</file>
+          <file> 5</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 24 20 14 12 9 13 23 8 7 15 26 22 11 5</file>
+          <file> 21 28 24 4 16 17 22 13 10 29 18 25 14 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\Bsp\bsp_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 28 24 4 16 17 22 13 10 29 18 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\Components\fifo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 28 24 4 16 17 22 13 18 27 10 0 14 21</file>
         </tool>
       </inputs>
     </file>

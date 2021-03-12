@@ -281,7 +281,7 @@ void uart1_poll_send(const uint8_t *buf, uint16_t size)
     for (i=0; i<size; i++)
     {
 	  	while(USART_GetFlagStatus(USART1, USART_FLAG_TXE) == RESET);
-        USART_SendData(USART2, *(buf+i));
+        USART_SendData(USART1, *(buf+i));
 		while(USART_GetFlagStatus(USART1, USART_FLAG_TC) == RESET);
     }
 }

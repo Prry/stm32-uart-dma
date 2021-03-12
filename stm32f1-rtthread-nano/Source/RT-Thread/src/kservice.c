@@ -1141,10 +1141,11 @@ rt_device_t rt_console_set_device(const char *name)
 }
 RTM_EXPORT(rt_console_set_device);
 #endif
-
+#include "dev_uart.h"
 RT_WEAK void rt_hw_console_output(const char *str)
 {
     /* empty console output */
+    uart_write(DEV_UART1, (uint8_t*)str, rt_strlen(str));
 }
 RTM_EXPORT(rt_hw_console_output);
 

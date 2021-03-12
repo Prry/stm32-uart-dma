@@ -68,7 +68,7 @@ int main(void)
 	
 	bsp_uart2_init();
 	uart_device_init(DEV_UART2);
-	
+    
 	for(;;)
 	{
         s_count++;
