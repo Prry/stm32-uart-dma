@@ -1,0 +1,21 @@
+"D:\Program Files\IAR8\arm\bin\armproc.dll" 
+
+"D:\Program Files\IAR8\arm\bin\armstlink2.dll" 
+
+"G:\Github\H7\stm32h7-uart-dma\EWARM\stm32h7-uart-dma\Exe\stm32h7-uart-dma.out" 
+
+--plugin="D:\Program Files\IAR8\arm\bin\armbat.dll" 
+
+--device_macro="D:\Program Files\IAR8\arm\config\debugger\ST\STM32H7xx.dmac" 
+
+--device_macro="D:\Program Files\IAR8\arm\config\debugger\ST\STM32H7xx_DBG.dmac" 
+
+--device_macro="D:\Program Files\IAR8\arm\config\debugger\ST\STM32H7xx_OB.dmac" 
+
+--device_macro="D:\Program Files\IAR8\arm\config\debugger\ST\STM32H7xx_TRACE.dmac" 
+
+--flash_loader="D:\Program Files\IAR8\arm\config\flashloader\ST\FlashSTM32H7xxxI.board" 
+
+
+
+

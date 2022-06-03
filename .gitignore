@@ -5,3 +5,7 @@ stm32f1-rtthread-nano/Projects/MDK/Project.uvguix.acuity
 stm32f1-uart-dma/Projects/MDK/DebugConfig/
 stm32f1-uart-dma/Projects/MDK/Listings/
 stm32f1-uart-dma/Projects/MDK/Objects/
+stm32h7-uart-dma/MDK-ARM/DebugConfig/
+stm32h7-uart-dma/MDK-ARM/stm32h7-uart-dma.uvguix.acuity
+stm32h7-uart-dma/MDK-ARM/stm32h7-uart-dma/
+stm32h7-uart-dma/EWARM/stm32h7-uart-dma/
