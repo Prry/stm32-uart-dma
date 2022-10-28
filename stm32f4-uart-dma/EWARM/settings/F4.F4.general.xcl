@@ -1,0 +1,15 @@
+"D:\Program Files\IAR8\arm\bin\armproc.dll" 
+
+"D:\Program Files\IAR8\arm\bin\armstlink2.dll" 
+
+"G:\Github\F4\EWARM\F4\Exe\F4.out" 
+
+--plugin="D:\Program Files\IAR8\arm\bin\armbat.dll" 
+
+--device_macro="D:\Program Files\IAR8\arm\config\debugger\ST\STM32F4xx.dmac" 
+
+--flash_loader="D:\Program Files\IAR8\arm\config\flashloader\ST\FlashSTM32F4xxx.board" 
+
+
+
+

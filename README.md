@@ -9,6 +9,7 @@
 | STM32F030C8T6 | 72MHz  | 标准库   | UART1、UART2 |
 | STM32F103ZET6 | 48MHz  | 标准库   | UART1、UART2 |
 | STM32H743XIH6 | 400MHz | HAL/LL库 | UART5        |
+| STM32F407VCT6 | 168MHz | HAL/LL库 | UART1        |
 
 <br>
 
