@@ -9,3 +9,7 @@ stm32h7-uart-dma/MDK-ARM/DebugConfig/
 stm32h7-uart-dma/MDK-ARM/stm32h7-uart-dma.uvguix.acuity
 stm32h7-uart-dma/MDK-ARM/stm32h7-uart-dma/
 stm32h7-uart-dma/EWARM/stm32h7-uart-dma/
+stm32f4-uart-dma/MDK-ARM/DebugConfig/
+stm32f4-uart-dma/MDK-ARM/stm32f4-uart-dma.uvguix.acuity
+stm32f4-uart-dma/MDK-ARM/stm32f4-uart-dma/
+stm32f4-uart-dma/EWARM/stm32f4-uart-dma/
